@@ -21,13 +21,17 @@
 
 $white: white;
 $black: black;
+$orange: orange;
+$yellow: yellow;
+
 
 .navbar {
        margin-bottom: 0;
-       background: $black;
+       background: $orange;
+       
 }
 body {
-       background: $black;
+       background: $orange;
        color: $white;
        font-family: 'Merriweather', sans-serif;
 }
@@ -39,12 +43,14 @@ p {
        font-size: 16px;
        color: $white;
 }
+
 a:visited {
-       color: $black;
+    color: $black;
 }
+
 .jumbotron {
        background: #0048CD;
-       color: $white;
+       color: $orange;
        text-align: center;
        p {
                color: $white;
@@ -55,14 +61,14 @@ a:visited {
        color: $white;
 }
 .btn-primary {
-       color: $white;
+       color: $black;
        border-color: $white;
        margin-bottom: 5px;
-}
-.btn-sm {
-       background-color: $white;
-       display: inline-block;
-}
+   }
+   .btn-sm {
+          background-color: $white;
+          display: inline-block;
+   }
 img,
 video,
 audio {
